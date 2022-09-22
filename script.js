@@ -86,7 +86,7 @@ function gerarId() {
 }
 
 function adicionarTarefa(tarefa) {
-    if (inputNovaTarefa.value == "") {
+    if (input.value == "") {
         alert('Adicione uma tarefa');
     } else {
         let li = criarTagLI(tarefa)
